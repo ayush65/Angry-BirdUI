@@ -93,9 +93,7 @@
     font-size: 3rem;
 }
 .avatar-space{
-    margin-left:25px;
-    margin-bottom: 30px;
-    margin-top: 15px;
+    margin: 15px 0px 30px 25px;
 }
 .avatar-xs-size {
     width: 2rem;
