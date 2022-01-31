@@ -48,13 +48,13 @@ body{
     align-items: center;
     top: 100px;
 }
-.landingpage-contents > img{
+.landing-page-logo{
     width: 31.25rem;
     height: 15.625rem;
     border-radius: 20%;
     
 }
-.landingpage-contents > p {
+.landing-page-paragraph{
     position: relative;
     padding:20px;
     margin-left: 50px;
