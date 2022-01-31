@@ -13,6 +13,7 @@ body{
     background-color: var(--primary-color);
     justify-content: flex-end;
     position: fixed;
+    z-index: 2;
 }
 .tabContainer-contents{
     padding: 0.4rem 1rem;
