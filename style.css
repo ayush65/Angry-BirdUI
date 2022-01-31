@@ -1,0 +1,123 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Dongle&family=Open+Sans:ital@1&family=Source+Sans+Pro:ital,wght@0,700;1,400&display=swap');
+@import url("./color-palette/color.css");
+
+body{
+    margin:auto ;
+    padding:auto ;
+}
+.tab-container{
+    display: flex;
+    width:100%;
+    height: 10vh;
+    background-color: var(--primary-color);
+    justify-content: flex-end;
+    position: fixed;
+    z-index: 2;
+}
+.tabContainer-contents{
+    padding: 0.4rem 1rem;
+    margin-top: 0;
+    margin-left:auto;
+
+}
+.tab-content{
+    margin: 1rem;
+    border: none;
+    background-color:transparent;
+    font-size: 1.25rem;
+    padding: 0.5rem;
+    color: var(--white);
+    cursor: pointer;
+}
+.tab-content:hover{
+    color: var(--secondary-color);
+}
+.tab-header-content > h1 {
+    color: var(--white);
+    position: absolute;
+    left: 20px;
+}
+.tab-header > h1:hover {
+    color: var(--secondary-color);
+}
+.landingpage-contents{
+    display:flex;
+    flex-flow: column wrap;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    top: 100px;
+}
+.landing-page-logo{
+    width: 31.25rem;
+    height: 15.625rem;
+    border-radius: 20%;
+    
+}
+.landing-page-paragraph{
+    position: relative;
+    padding:20px;
+    margin-left: 50px;
+    margin-right: auto;
+    font-weight: 600;
+    font-size:20px;
+    color: var(--primary-color);
+
+}
+.main-heading-content {
+    position: relative;
+    top: 20px;
+    color: var(--primary-color);
+}
+.getStarted-button{
+    text-decoration: none;
+    color: var(--primary-color);
+    border: 1px solid var(--primary-color);
+    padding: 10px;
+    font-weight: 600;
+}
+
+.getStarted-button:hover {
+    background-color: var(--primary-color);
+    color:white;
+}
+
+.documentation{
+    left:8.55rem;
+    padding: 0.625rem;
+    color:white;
+    background-color: var(--primary-color);
+    font-weight: 600;
+    border: 1px solid var(--primary-color);
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+.button-components{
+    position: relative;
+    top:0px;
+}
+@media screen and (max-width: 772px) {
+    .landingpage-contents > img{
+        width: 28.25rem;
+        height: 11.625rem;
+     }
+
+     .landingpage-contents > p{
+         margin-left:10px;
+     }
+   }
+  
+ @media screen and (max-width: 492px) {
+    .landingpage-contents > img{
+        width: 24.25rem;
+        height: 8.625rem;
+     }
+ }
+ @media screen and (max-width: 772px) {
+    .tabContainer-contents{
+       display: none;
+     }
+}
+  
