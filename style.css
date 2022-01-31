@@ -3,8 +3,8 @@
 @import url("./color-palette/color.css");
 
 body{
-    margin:auto !important;
-    padding:auto !important;
+    margin:auto ;
+    padding:auto ;
 }
 
 .tab-container{
