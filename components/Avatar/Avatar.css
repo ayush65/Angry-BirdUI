@@ -26,14 +26,14 @@
 .text-decoration{
     text-decoration:none;
     color: var(--primary-color);
-    padding: 20px 60px;
+    padding: 1.25rem 60px;
     font-weight: 600;
-    font-size: 20px; 
+    font-size: 1.25rem; 
 }
 .main-menu  .menu-item {
-    padding: 20px;
+    padding: 1.25rem;
     font-weight: 600;
-    font-size: 20px;   
+    font-size: 1.25rem;   
 }
 .main-menu .menu-item:hover{
     background-color: var(--primary-color);
@@ -45,7 +45,7 @@
     color: var(--white);
 }
 .primary-components-2{
-    margin-bottom: 20px;
+    margin-bottom: 1.25rem;
 }
 ::-webkit-scrollbar {
     width: 4px;
@@ -93,7 +93,7 @@
     font-size: 3rem;
 }
 .avatar-space{
-    margin: 15px 0px 30px 25px;
+    margin: 15px 0px 1.875rem 1.563rem;
 }
 .avatar-xs-size {
     width: 2rem;
@@ -105,10 +105,10 @@
 }
 .Avatar-content-heading{
     color: var(--primary-color);
-    font-size: 48px;
+    font-size: 3rem;
 }
 .Avatar-content-paragraph{
-    font-size: 24px;
+    font-size: 1.5rem;
     color: #E5383B;
     font-weight: 400;
 }
@@ -118,12 +118,12 @@
      }
 
      .avatar-contents-square, .avatar-contents-circle{
-        margin-left:60px;
+        margin-left: 3.75rem;
      }
 } 
 @media screen and (max-width: 492px) {
     .avatar-contents-square, .avatar-contents-circle{
-        margin-left:40px;
+        margin-left: 2.5rem;
      }
 
  }
