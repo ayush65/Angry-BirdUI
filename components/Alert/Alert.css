@@ -1,0 +1,83 @@
+@import url("../../style.css");
+@import url("../Avatar/Avatar.css");
+@import url("../../color-palette/color.css");
+
+.main-container{
+    display:flex;
+}
+.main-menu{
+    height: 100%;
+}
+.alert-components{
+    margin: 6.25rem auto 2.25rem 5.875rem; /* margin-top  margin-right margin-bottom margin-left  */
+    display: flex;
+    flex-flow: column wrap;
+}
+.alert-box {
+    border-radius: 0.3rem;
+    padding: 1rem 3rem 1rem 1rem;
+    font-size: 1rem;
+    margin: 1rem 0;
+    position: relative;
+    width: 100%;
+    box-sizing: border-box;
+}
+.alert-primary {
+    background-color: var(--alert-primary-bg);
+    color: var(--alert-primary-color);
+}
+.link-text-primary {
+    text-decoration: underline;
+    text-underline-position: under;
+    text-decoration-color: var(--primary-color);
+    padding: 0;
+}
+.link-text{
+    font-weight:600;
+}
+.alert-secondary {
+    background-color: var(--alert-secondary-bg);
+    color: var(--alert-secondary-color);
+}
+.alert-success {
+    background-color: var(--alert-sucess-bg);
+    color: var(--alert-sucess-color);
+}
+.alert-danger {
+    color: var(--alert-danger-bg);
+    background-color: var(--alert-danger-color);
+}
+.alert-warning {
+    color: var(--alert-warning-bg);
+    background-color: var(--alert-warning-color);
+}
+.alert-dark {
+    color: var(--white);
+    background-color: var(--alert-dark-color);
+}
+.alert-heading{
+    color: var(--primary-color);
+    font-size: 3rem;
+}
+.alert-paragraph{
+    font-size: 1.5rem;
+    color: var(--primary-color);
+    font-weight: 400;
+}
+@media screen and (max-width: 772px) {
+    .main-menu {
+       display: none;
+     }
+     .alert-components{
+        margin-left: 1.75rem;
+        font-size: 10px;
+        height: 66.875rem;
+        width: 18.75rem;
+     }
+} 
+@media screen and (max-width: 492px) {
+    .alert-components{
+        margin-left: 2.5rem;
+     }
+
+ }

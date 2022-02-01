@@ -2,4 +2,15 @@
     --primary-color: #9B2226;
     --secondary-color: #FFB3C1;
     --white: white;
+    --alert-primary-bg: #7FD2E6;
+    --alert-primary-color: #29438b;
+    --alert-secondary-bg: #eaeaec;
+    --alert-secondary-color: #696b79;
+    --alert-sucess-bg: #84f1c9;
+    --alert-sucess-color: #1b7052;
+    --alert-danger-bg: #dc3545;
+    --alert-danger-color: #fcc5c5;
+    --alert-warning-bg: #ff9204;
+    --alert-warning-color: #ffe7c5;
+    --alert-dark-color: rgb(47, 47, 47);
 }
