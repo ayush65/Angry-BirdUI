@@ -1,0 +1,132 @@
+@import url("../../style.css");
+@import url("../Avatar/Avatar.css");
+@import url("../../color-palette/color.css");
+
+.main-menu{
+    width: 19rem;
+    height: 113.75rem;
+}
+.component-library-components-container {
+    position: relative;
+    display: flex;
+    flex-flow: row wrap;  
+    width: 100%;
+}
+.button-conatiner{    
+    position: absolute;
+    margin-left: 5.875rem;
+    margin-top: 6.25rem;
+    margin-right: auto;
+}
+.button-component-example{
+    color: var(--primary-color);
+}
+.button{
+    position: absolute;
+    top: 11.25rem;
+    margin-left: 1.87rem;
+    padding: 0.625rem;
+}
+.simple-button{
+    background-color: var(--alert-dark-color);
+    color: var(--white);
+}
+.primary-outline{
+    border: 1px solid var(--alert-dark-color);
+    color: var(--alert-dark-color);
+    left: 9.375rem;
+}
+.primary-outline:hover{
+    background-color: var(--alert-dark-color);
+    color: var(--white);
+}
+.button-link{
+    color: var(--alert-dark-color);
+    border-bottom: 1px solid var(--alert-dark-color);
+    left: 19.375rem;
+}
+.button-icon{
+    background-color: var(--alert-dark-color);
+    color: var(--white);
+    left: 28.125rem;
+}
+.iframe-button{
+    position:absolute;
+    top: 15.625rem;
+}
+.button-component-disable-example{
+    margin-top: 23.125rem;
+    color: var(--primary-color);
+}
+.button-disabled{
+    position: absolute;
+    top: 36.875rem;
+    left: 3.125rem;
+    padding: 10px;
+    background-color: var(--button-disabled-icon-color);
+}
+.button-disabled-icon{
+    position: absolute;
+    top: 590px;
+    color: var(--button-disabled-icon-color);
+    border: 1px solid var(--primary-color);
+    margin-left: 12.5rem;
+    padding:10px;
+}
+.disabled {
+    position: absolute;
+    top: 40.625rem;
+}
+.button-size{
+    position: absolute;
+    top: 62.5rem;
+    display: flex;
+}
+.button-size-heading{
+    position: absolute;
+    top: 56.25rem;
+}
+.button-large{
+    background-color: var(--primary-color);
+    padding: 1rem;
+    margin-right: 3.125rem;
+    font-size: 1rem;
+    color: var(--white);
+}
+.button-small{
+    background-color: var(--primary-color);
+    margin-top: 1.25rem;
+    padding: 0.5rem;
+    font-size: 10px;
+    color: var(--white);
+}
+
+.iframe-size{
+    position: absolute;
+    top: 68.75rem;
+}
+.button-floating-components{
+    position: absolute;
+    top: 87.5rem;
+}
+.button-floating{
+    margin-left: 2.5rem;
+    background-color: var(--primary-color);
+    padding: 1.25rem;
+    color: var(--white);
+}
+.round {
+    border-radius: 50%;
+    margin-top: 1.875rem;
+}
+.button-floating-heading{
+    position: absolute;
+    top: 82.5rem;
+}
+.iframe-floating-component{
+    position: absolute;
+    top: 92.5rem;
+}
+.button-size-heading , .button-floating-heading{
+    color: var(--primary-color);
+}
