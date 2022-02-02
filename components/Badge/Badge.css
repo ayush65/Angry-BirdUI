@@ -1,0 +1,92 @@
+@import url("../../style.css");
+@import url("../Avatar/Avatar.css");
+@import url("../../color-palette/color.css");
+
+.main-menu{
+    width: 18rem;
+    height: 93.75rem;
+}
+.component-library-components-container{
+    margin: 6.25rem auto 2.25rem 5.875rem; /* margin-top  margin-right margin-bottom margin-left  */
+    display: flex;
+    flex-flow: column wrap;
+}
+.Badge-content-heading{
+    color: var(--primary-color);
+    font-size: 3rem;
+}
+.Badge-content-paragraph{
+    font-size: 1.5rem;
+    color:  var(--primary-color);
+    font-weight: 400;
+}
+.status-badge {
+    height: 1.25rem;
+    min-width: 1.25rem;
+    padding: 2px;
+    border-radius: 50%;
+    border: 2px solid var(--white);
+    display: flex;
+    color:  var(--white);
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    font-size: .75em;
+    box-sizing: border-box;
+}
+.status-badge-offline {
+    position: absolute;
+    background-color: var(--status-badge-offline);
+    top: 13.125rem;
+    left: 10rem;
+}
+.status-badge-online{
+    position: absolute;
+    background-color: var(--status-badge-online);
+    top: 14.063rem;
+    left: 18.438rem;
+
+}
+.status-badge-away {
+    position: absolute;
+    background-color: var(--status-badge-away);
+    top: 14.688rem;
+    left: 23.75rem;
+    padding: 1px;
+}
+.badge-content-example{
+    color: var(--primary-color);
+    font-size: 2rem;
+    margin-top: 1.25rem;
+    display:flex;
+}
+.badge-content-examples{
+    color:  var(--alert-primary-color);
+    font-weight: 400;
+    margin-top: 1.875rem;
+    margin-bottom: 1.875rem;
+}
+.badge-text{
+    color: var(--white);
+    padding: 0.2rem 0.65rem;
+    font-size: 0.75em;
+    line-height: 1;
+    text-align: center;
+    border-radius: 0.3rem;
+    margin-left: 0.5rem;
+}
+.badge-square{
+    background-color: var(--alert-dark-color);
+}
+.badge-oval{
+    border-radius: 50rem;   
+}
+.badge-oval-color {   
+    background-color: var(--badge-oval-color);
+}
+@media screen and (max-width: 772px) {
+    .main-menu {
+       display: none;
+    }
+} 
+

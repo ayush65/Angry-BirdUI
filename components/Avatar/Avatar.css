@@ -18,8 +18,8 @@
     border-bottom-right-radius: 10px;
     width: 15.625rem;
     grid-area: aside;
-    height: 1800px;
-    margin-top:70px;
+    height: 112.5rem;
+    margin-top: 4.375rem;
     white-space: nowrap;
     color:var(--primary-color);
     overflow-x: scroll;
