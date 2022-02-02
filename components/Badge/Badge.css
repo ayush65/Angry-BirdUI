@@ -42,7 +42,7 @@
 }
 .status-badge-online{
     position: absolute;
-    background-color: var(--status-badge-online)
+    background-color: var(--status-badge-online);
     top: 14.063rem;
     left: 18.438rem;
 
