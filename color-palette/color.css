@@ -13,4 +13,9 @@
     --alert-warning-bg: #ff9204;
     --alert-warning-color: #ffe7c5;
     --alert-dark-color: rgb(47, 47, 47);
+    --badge-oval-color: #2A9D8F;
+    --status-badge-away: #FFB703;
+    --status-badge-online: #90BE6D;
+    --status-badge-offline: #dc3545;
+
 }
