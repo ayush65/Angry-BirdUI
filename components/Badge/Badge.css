@@ -87,13 +87,6 @@
 @media screen and (max-width: 772px) {
     .main-menu {
        display: none;
-     }
-
-
+    }
 } 
-@media screen and (max-width: 492px) {
-    .avatar-contents-square, .avatar-contents-circle{
-        margin-left: 2.5rem;
-     }
 
- }
