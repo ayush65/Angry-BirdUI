@@ -18,5 +18,8 @@
     --status-badge-online: #90BE6D;
     --status-badge-offline: #dc3545;
     --button-disabled-icon-color: #CAD5E2;
-
+    --card-bottom-radius:  #758283;
+    --card-primary-color: #223843;
+    --card-primary-button: #375B6D;
+    --card-dismiss-color: #C37D92;
 }
