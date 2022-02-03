@@ -74,7 +74,7 @@
 .avatar-contents-circle{
     position: absolute;
     margin-left: 5.875rem;
-    margin-top: 65.625rem;
+    margin-top: 67.925rem;
     margin-right: auto;
 }
 .avatar-sm-size {
@@ -103,14 +103,16 @@
 .avatar-round {
     border-radius: 50%;
 }
-.Avatar-content-heading{
+.component-library-content-heading{
     color: var(--primary-color);
     font-size: 3rem;
+    margin-bottom: 20px;
 }
-.Avatar-content-paragraph{
+.component-library-content-paragraph{
     font-size: 1.5rem;
     color:  var(--primary-color);
     font-weight: 400;
+    margin-bottom: 20px;
 }
 @media screen and (max-width: 772px) {
     .main-menu {
