@@ -71,7 +71,7 @@
     padding: 0.5rem 0.5rem;
     cursor: pointer;
 }
-#card-button-watch {
+.card-button-play {
     background-color: var(--primary-color);
     position: absolute;
     bottom: 2.5rem;
@@ -83,15 +83,15 @@
     padding: 0.5rem 0.5rem;
     cursor: pointer;  
 }
-#card-button-watch:hover {
+.card-button-play:hover {
     background-color: var(--card-primary-button);
     color: var(--white);
 }
-#card-button-addtowatchlist:hover {
+.card-button-check-levels:hover {
     background-color: var(--card-primary-button);
     color: var(--white);
 }
-#card-button-addtowatchlist {
+.card-button-check-levels {
     background-color: var(--primary-color);
     position: absolute;
     cursor: pointer;
