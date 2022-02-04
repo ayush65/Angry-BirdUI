@@ -62,9 +62,11 @@
 }
 
 .success-text{
+    padding: 0.4rem;
     color: var(--success-text-color);
 }
 .warning-text{
+    padding: 0.4rem;
     color: var(--warning-text-color);
 }
 
@@ -75,5 +77,6 @@
     border-color: var(--error-text-color);
 }
 .error-text{
+    padding: 0.4rem;
     color: var(--error-text-color);
 }
