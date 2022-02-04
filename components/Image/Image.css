@@ -1,0 +1,53 @@
+@import url("../Avatar/Avatar.css");
+
+.main-menu{
+    height: 129.75rem;
+}
+.image-container{
+    position: absolute;
+    margin-left: 5.875rem;
+    margin-top: 6.25rem;
+    margin-right: auto;
+    display: block;
+}
+.image-component-heading{
+    color: var(--primary-color);
+    font-size: 3rem;
+}
+
+.image-text-margin{
+    margin-top: 1.875rem;
+}
+
+.image-content-paragraph{
+    font-size: 1.5rem;
+    color:  var(--primary-color);
+    font-weight: 400;
+}
+
+.image-responsive {
+    min-width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+.image-round{
+    border-radius: 50%;
+    width: 20%;
+    height: auto;
+}
+@media screen and (max-width: 772px) {
+     .image-container{
+        margin-left: 3.75rem;
+     }
+     .image-responsive{
+         width: 65%;
+     }
+} 
+@media screen and (max-width: 492px) {
+    .image-container{
+        margin-left: 1.5rem;
+     }
+     .image-responsive{
+        width: 25%;
+    }
+ }
