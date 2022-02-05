@@ -1,0 +1,82 @@
+@import url("../Avatar/Avatar.css");
+
+.input-container{
+    position: absolute;
+    margin-left: 5.875rem;
+    margin-top: 6.25rem;
+    margin-right: auto;
+    display: block;
+}
+
+.input-component-heading{
+    color: var(--primary-color);
+    font-size: 3rem;
+}
+
+.input-box{
+    padding: 0.5rem 2rem;
+    position: relative;
+    border-radius: 2rem;
+    font-size: 1.2rem;
+}
+.input-margin{
+    margin-bottom: 3rem;
+
+}
+.input-iframe-margin{
+    margin-top:2rem;
+}
+.label-input-basic,.label-input-success{
+    position:absolute;
+    left:1.25rem;
+    background-color: white;
+}
+.label-input-warning,.label-input-error{
+    position:absolute;
+    left: 1.25rem;
+    background-color: white;
+}
+.label-input-error{
+    top: 89.063rem;
+}
+.basic-text{
+    padding: 0.4rem;
+    color: var(--basic-text-color);
+}
+.basic{
+    border-color: var(--basic-text-color);
+}
+
+.label-input-basic{
+    top: 5.5rem;
+}
+.label-input-warning{
+    top: 61.125rem;
+}
+
+.label-input-success{
+    top: 33.438rem;
+}
+.success{
+    border-color: var(--success-text-color);
+}
+
+.success-text{
+    padding: 0.4rem;
+    color: var(--success-text-color);
+}
+.warning-text{
+    padding: 0.4rem;
+    color: var(--warning-text-color);
+}
+
+.warning{
+    border-color: var(--warning-text-color);
+}
+.error{
+    border-color: var(--error-text-color);
+}
+.error-text{
+    padding: 0.4rem;
+    color: var(--error-text-color);
+}

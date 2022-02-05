@@ -22,4 +22,8 @@
     --card-primary-color: #223843;
     --card-primary-button: #375B6D;
     --card-dismiss-color: #C37D92;
+    --basic-text-color: #023E8A;
+    --success-text-color: #90BE6D;
+    --warning-text-color: #F9C74F;
+    --error-text-color: #DB222A;
 }
