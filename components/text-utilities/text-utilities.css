@@ -1,0 +1,52 @@
+@import url("../Avatar/Avatar.css");
+
+.text-utilities-container{
+    position: absolute;
+    margin-left: 20.875rem;
+    margin-top: 6.25rem;
+    margin-right: auto;
+    display: flex;
+    flex-flow: column wrap;
+}
+.text-heading-element{
+    color: var(--primary-color);
+    font-size: 3rem;
+}
+.text-margin{
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+.text-header-components{
+    margin-top:1rem;
+    color: var(--text-utility-color);
+}
+.text-size-5xl {
+    font-size: 3rem;
+    line-height: 3rem;
+}
+.text-size-4xl {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+}
+.text-size-3xl {
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+ }
+ .text-size-2xl {
+    font-size: 1.5rem;
+    line-height: 2rem;
+}
+.text-size-lg {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+}
+.text-size-small {
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+}
+.text-gray {
+    color: var(--text-utility-gray);
+}
+.text-center {
+    text-align: center;
+}
