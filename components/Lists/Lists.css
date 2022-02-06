@@ -1,0 +1,58 @@
+@import url("../Avatar/Avatar.css");
+
+.main-menu{
+    height: 145.75rem;
+}
+.list-component-container{
+    position: absolute;
+    margin-left: 19.875rem;
+    margin-top: 6.25rem;
+    margin-right: auto;
+    display: block;
+}
+
+.list-heading-element{
+    color: var(--primary-color);
+    font-size: 3rem;
+}
+
+.list-container{
+    display: flex;
+    font-size: 1.5rem;
+    flex-flow: column wrap;
+}
+.styled-list {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+.list-style-square {
+    list-style-type: square;
+}
+
+.list-style-circle{
+    list-style-type: circle;
+}
+
+.list-style-Roman{
+    list-style-type: upper-roman;
+}
+.style-list-numeric{
+    list-style-type: numeric;
+}
+.list-style-alphabet{
+    list-style-type: lower-alpha;
+}
+.list-container-spaced{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+}
+.list-item {
+    margin: 0.5rem 1rem;
+    padding: 0.5rem;
+}
