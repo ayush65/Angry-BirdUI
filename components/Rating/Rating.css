@@ -1,0 +1,24 @@
+@import url("../Avatar/Avatar.css");
+
+.rating-container{
+    position: absolute;
+    margin-left: 18.875rem;
+    margin-top: 6.25rem;
+    margin-right: auto;
+    display: block;
+}
+.rating-component-heading{
+    color: var(--primary-color);
+    font-size: 3rem;
+    margin-bottom: 1.875rem;
+}
+.fa-rating{
+    font-size: 2.5rem;
+}
+.main-menu{
+    height: 100%;
+}
+.iframe-margin{
+    margin-top: 2.5rem;
+    margin-bottom: 2.5rem;
+}
