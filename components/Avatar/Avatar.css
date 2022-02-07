@@ -12,6 +12,9 @@
 .main-container{
     display: flex;
 }
+.tab-content{
+    text-decoration: none;
+}
 .main-menu{
     background-color: var(--white);
     border-top-right-radius: 10px;

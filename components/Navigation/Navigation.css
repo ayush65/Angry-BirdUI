@@ -1,0 +1,37 @@
+@import url("../Avatar/Avatar.css");
+
+.navigation-container{
+    position: absolute;
+    margin-left: 18.875rem;
+    margin-top: 6.25rem;
+    margin-right: auto;
+    display: block;
+}
+.main-menu{
+    height: 100%;
+}
+.navigation-component-heading{
+    color: var(--primary-color);
+    font-size: 3rem;
+    margin-bottom: 1.875rem;
+}
+
+.tabContainer-contents{
+    margin-top: 1.25rem;
+
+}
+.nav-container{
+    display: flex;
+    width: 75rem;
+    height: 4.375rem;
+    background-color: var(--nav-color);
+    justify-content: flex-end;
+}
+.nav-header-content{
+    color: var(--white);
+    margin-top: 0.938rem;
+    margin-left: 0.625rem;
+}
+.iframe-margin{
+    margin-top: 2.5rem;
+}
