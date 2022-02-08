@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <link rel="stylesheet" href="Image.css">
+    <link rel="stylesheet" href="Snackbar.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Angry Bird UI</title>
 </head>
@@ -25,7 +25,7 @@
         <ul>
             <section class="primary-components-0">
                 <li class="menu-item"> 
-                    <a class="text-decoration"href="../Avatar/Avatar.html">Avatar</a>
+                    <a class="text-decoration"href="Avatar.html">Avatar</a>
                 </li>
                 <li class="menu-item"> 
                     <a class="text-decoration"href="../Alert/Alert.html">Alert</a>
@@ -40,7 +40,7 @@
                     <a class="text-decoration" href="../Cards/Cards.html">Card</a>
                 </li>  
                 <li class="menu-item"> 
-                    <a class="text-decoration" href="Image.html">Image</a>
+                    <a class="text-decoration" href="../Image/Image.html">Image</a>
                 </li>  
                 <li class="menu-item"> 
                     <a class="text-decoration" href="../Input/Input.html">Input</a>
@@ -63,7 +63,7 @@
                     <a class="text-decoration" href="../Rating/Rating.html">Rating </a>
                 </li> 
                 <li class="menu-item"> 
-                    <a class="text-decoration" href="../Snackbar/Snackbar.html">Snackbar</a>
+                    <a class="text-decoration" href="Snackbar.html">Snackbar</a>
                 </li> 
                 <li class="menu-item"> 
                     <a class="text-decoration" href="">Simplified Grid</a>
@@ -82,30 +82,18 @@
             </section>
         </ul>
     </div>
-    <div class="component-library-components-container">
-        <div class="image-container">
-            <h1 class="image-component-heading">Responsive</h1>
-            <img class="image-responsive image-text-margin" src="../Image/image-component-image/round-image.png" alt="responsive-image">
-            <iframe
-            class="image-text-margin"
-            src="https://carbon.now.sh/embed?bg=rgba%28230%2C57%2C70%2C1%29&t=material&wt=none&l=groovy&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=4x&wm=false&code=%2520%253Cimg%2520class%253D%2522image-responsive%2522%2520src%253D%2522..%252FImage%252Fimage-component-image%252Fround-image.png%2522%2520alt%253D%2522responsive-image%2522%253E"
-            style="width: 1024px; height: 223px; border:0; transform: scale(1); overflow:hidden;"
-            sandbox="allow-scripts allow-same-origin">
-          </iframe>
-
-            <h1 class="image-component-heading image-text-margin">Round</h1>
-            <img class="image-round image-text-margin" src="../Image/image-component-image/round-image.png" alt="round-image">
-            <iframe
-            class="image-text-margin"
-            src="https://carbon.now.sh/embed?bg=rgba%28230%2C57%2C70%2C1%29&t=material&wt=none&l=groovy&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=4x&wm=false&code=%253Cimg%2520class%253D%2522image-round%2522%2520src%253D%2522..%252FImage%252Fimage-component-image%252Fround-image.png%2522%2520alt%253D%2522round-image%2522%253E"
-             style="width: 959px; height: 205px; border:0; transform: scale(1); overflow:hidden;"
-             sandbox="allow-scripts allow-same-origin">
-            </iframe>
-        </div>
+    <div class="snackbar-container">
+        <h1 class="snackbar-component-heading">Snackbar</h1>
+        <h1 class="snackbar"></h1>
+        <button class="btn snackbar-button" onclick="showMessage('The Snackbar message is here')">Press here to show Snackbar message</button>
+        <iframe
+        class="iframe-margin"
+        src="https://carbon.now.sh/embed?bg=rgba%28230%2C57%2C70%2C1%29&t=material&wt=none&l=groovy&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=4x&wm=false&code=%253Cdiv%2520class%253D%2522snackbar-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ch1%2520class%253D%2522snackbar-component-heading%2522%253ESnackbar%253C%252Fh1%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ch1%2520class%253D%2522snackbar%2522%253E%253C%252Fh1%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520snackbar-button%2522%2520onclick%253D%2522showMessage%28%27The%2520Snackbar%2520message%2520is%2520here%27%29%2522%253EPress%2520here%2520to%2520show%2520Snackbar%2520message%253C%252Fbutton%253E%250A%253C%252Fdiv%253E"
+        style="width: 1024px; height: 298px; border:0; transform: scale(1); overflow:hidden;"
+        sandbox="allow-scripts allow-same-origin">
+      </iframe>
+    </div>
         
-    </div>
-
-    </div>
-    
+    <script src="Snackbar.js"></script>
 </body>
 </html>
