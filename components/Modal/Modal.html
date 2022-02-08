@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="stylesheet" href="Modal.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Angry Bird UI</title>
+</head>
+<body>
+    <div class="tab-container">
+        <div class="tab-header-content">
+            <h1 class="tab-header">Angry Birds UI</h1>
+        </div>
+        <nav class="tabContainer-contents">
+            <a class="tab-content" href="../../index.html">Home</a>
+            <a class="tab-content">Documentation</a>
+            <a class="tab-content"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+            <a class="tab-content"><i class="fa fa-github" aria-hidden="true"></i></a>
+            <a class="tab-content"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+        </nav>
+    </div>
+    <div class="main-container" >
+    <div class="main-menu">
+        <ul>
+            <section class="primary-components-0">
+                <li class="menu-item"> 
+                    <a class="text-decoration"href="../Avatar/Avatar.html">Avatar</a>
+                </li>
+                <li class="menu-item"> 
+                    <a class="text-decoration"href="../Alert/Alert.html">Alert</a>
+                </li>    
+                <li class="menu-item"> 
+                    <a class="text-decoration" href="../Badge/Badge.html">Badge</a>
+                </li>
+                <li class="menu-item"> 
+                    <a class="text-decoration" href="../Button/Button.html">Button</a>
+                </li>    
+                <li class="menu-item"> 
+                    <a class="text-decoration" href="../Cards/Cards.html">Card</a>
+                </li>  
+                <li class="menu-item"> 
+                    <a class="text-decoration" href="../Image/Image.html">Image</a>
+                </li>  
+                <li class="menu-item"> 
+                    <a class="text-decoration" href="Input.html">Input</a>
+                </li>  
+            </section>
+            <section class="primary-components-1">
+                <li class="menu-item"> 
+                    <a class="text-decoration" href="../text-utilities/text-utilities.html">Text Utilities</a>
+                </li> 
+                <li class="menu-item"> 
+                    <a class="text-decoration" href="../Lists/Lists.html">Lists</a>
+                </li> 
+                <li class="menu-item"> 
+                    <a class="text-decoration" href="../Navigation/Navigation.html">Navigation</a>
+                </li> 
+                <li class="menu-item"> 
+                    <a class="text-decoration" href="Modal.html">Modal</a>
+                </li> 
+                <li class="menu-item"> 
+                    <a class="text-decoration" href="Rating.html">Rating</a>
+                </li> 
+                <li class="menu-item"> 
+                    <a class="text-decoration" href="../Snackbar/Snackbar.html">Snackbar</a>
+                </li> 
+                <li class="menu-item"> 
+                    <a class="text-decoration" href="">Simplified Grid</a>
+                </li> 
+            </section>
+            <section class="primary-components-2">
+                <li class="menu-item"> 
+                    <a class="text-decoration" href="">Submenus</a>
+                </li> 
+                <li class="menu-item"> 
+                    <a class="text-decoration" href="">Hamburger</a>
+                </li> 
+                <li class="menu-item"> 
+                    <a class="text-decoration" href="">Slider</a>
+                </li> 
+            </section>
+        </ul>
+    </div>
+    <div class="modal-container">
+    <h1 class="modal-heading">Modal</h1>
+    <button id="myBtn" class="modal-sign-up-button">Press to Open  Modal Component</button> 
+    <div id="myModal" class="modal">
+      <div class="modal-content">
+        <span class="close"><i class="fa fa-times" aria-hidden="true"></i></span>
+        <h1 class="modal-component-heading">Sign In To Angry Bird Universe</h1>
+        <input type="text" placeholder="Enter your Email"class="modal-login modal-margin modal-content-width">
+        <input type="password" placeholder="Enter your Password"class="modal-login modal-password modal-margin modal-content-width">
+        <button class="modal-sign-up-button">Sign Up</button>
+      </div>
+    </div>
+    <iframe
+    class="iframe-margin"
+    src="https://carbon.now.sh/embed?bg=rgba%28230%2C57%2C70%2C1%29&t=material&wt=none&l=groovy&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=4x&wm=false&code=%253Cdiv%2520class%253D%2522modal-container%2522%253E%250A%2520%2520%2520%2520%253Ch1%2520class%253D%2522modal-heading%2522%253EModal%253C%252Fh1%253E%250A%2520%2520%2520%2520%253Cbutton%2520id%253D%2522myBtn%2522%2520class%253D%2522modal-sign-up-button%2522%253EPress%2520to%2520Open%2520%2520Modal%2520Component%253C%252Fbutton%253E%2520%250A%2520%2520%2520%2520%253Cdiv%2520id%253D%2522myModal%2522%2520class%253D%2522modal%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522modal-content%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522close%2522%253E%253Ci%2520class%253D%2522fa%2520fa-times%2522%2520aria-hidden%253D%2522true%2522%253E%253C%252Fi%253E%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ch1%2520class%253D%2522modal-component-heading%2522%253ESign%2520In%2520To%2520Angry%2520Bird%2520Universe%253C%252Fh1%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520type%253D%2522text%2522%2520placeholder%253D%2522Enter%2520your%2520Email%2522class%253D%2522modal-login%2520modal-margin%2520modal-content-width%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520type%253D%2522password%2522%2520placeholder%253D%2522Enter%2520your%2520Password%2522class%253D%2522modal-login%2520modal-password%2520modal-margin%2520modal-content-width%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522modal-sign-up-button%2522%253ESign%2520Up%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+    style="width: 1024px; height: 449px; border:0; transform: scale(1); overflow:hidden;"
+    sandbox="allow-scripts allow-same-origin">
+  </iframe>
+  </iframe>
+    </div>
+    <script src="Modal.js"></script>
+</body>
+</html>
