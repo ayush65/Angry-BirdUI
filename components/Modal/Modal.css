@@ -1,0 +1,76 @@
+@import url("../Avatar/Avatar.css");
+
+.modal-container{
+    position: absolute;
+    margin-left: 18.875rem;
+    margin-top: 6.25rem;
+    margin-right: auto;
+    display: block;
+}
+.main-menu{
+    height: 100%;
+}
+.modal-heading{
+    color: var(--primary-color);
+    font-size: 3rem;
+}
+.modal-component-heading{
+    color: var(--primary-color);
+    font-size: 3rem;
+    margin-left: 20.875rem;
+    margin-bottom: 1.875rem;
+}
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%; 
+    overflow: auto;
+    background-color: rgba(0,0,0,0.4);
+}
+.modal-content {
+    display: flex;
+    flex-flow: column wrap;
+    background-color: var(--white);
+    margin: 15% auto;
+    padding: 1.25rem;
+    border: 1px solid var(--close-button-color);
+    width: 80%; 
+}
+#myBtn{
+    margin-top: 6.25rem;
+}
+.modal-margin{
+    margin-bottom: 2.25rem;
+}
+.modal-content-width{
+    width: 25rem;
+    margin-left: 25rem;
+    padding: 0.5rem;
+}
+.modal-sign-up-button{
+    padding: 0.5rem;
+    margin-left: 31.875rem;
+    margin-bottom: 2.25rem;
+    width: 12.5rem;
+    background-color: var(--primary-color);
+    color: var(--white);
+}
+.close {
+    color: var(--close-button-color);
+    float: right;
+    font-size: 1.75rem;
+    font-weight: bold;
+}
+.close:hover,
+.close:focus {
+    color: var(--black);
+    text-decoration: none;
+    cursor: pointer;
+}
+.iframe-margin{
+    margin-left: 5.5rem;
+}
