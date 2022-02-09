@@ -1,6 +1,4 @@
-@import url("../../style.css");
 @import url("../Avatar/Avatar.css");
-@import url("../../color-palette/color.css");
 
 .main-container{
     display:flex;
@@ -74,10 +72,21 @@
         height: 66.875rem;
         width: 18.75rem;
      }
+     .iframe-component{
+         position: absolute;
+         top: 50rem;
+        width: 432px;
+        height: 379px;
+}
 } 
 @media screen and (max-width: 492px) {
     .alert-components{
         margin-left: 2.5rem;
      }
+     .iframe-component{
+        width: 262px;
+        height: 679px;
+}
+
 
  }

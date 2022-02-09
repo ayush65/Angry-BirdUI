@@ -84,9 +84,26 @@
 .badge-oval-color {   
     background-color: var(--badge-oval-color);
 }
+.iframe-component{
+    width: 532px;
+    height: 479px;
+    border:0;
+    transform: scale(1); 
+    overflow:hidden;
+}
 @media screen and (max-width: 772px) {
-    .main-menu {
-       display: none;
-    }
-} 
+ .badge-components{
+    margin-left: 0.75rem;
+    display: flex;
+    flex-direction: column;
+ }
 
+
+} 
+@media screen and (max-width: 492px) {
+.badge-components{
+    margin-left: 0.5rem;
+ }
+
+
+}

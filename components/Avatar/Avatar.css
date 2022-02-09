@@ -117,6 +117,13 @@
     font-weight: 400;
     margin-bottom: 20px;
 }
+.iframe-component{
+    width: 632px;
+    height: 379px;
+    border:0;
+    transform: scale(1); 
+    overflow:hidden;
+}
 @media screen and (max-width: 772px) {
     .main-menu {
        display: none;
@@ -124,14 +131,28 @@
 
      .avatar-contents-square, .avatar-contents-circle{
         margin-left: 3.75rem;
+        display: flex;
+        flex-direction: column;
      }
+     .iframe-component{
+        width: 432px;
+        height: 179px;
+}
+    .avatar-contents-circle{
+        margin-top: 137.925rem;
+    }
 } 
 @media screen and (max-width: 492px) {
     .avatar-contents-square, .avatar-contents-circle{
         margin-left: 2.5rem;
      }
+     .iframe-component{
+        width: 262px;
+        height: 679px;
+}
 
  }
+
 
 
   

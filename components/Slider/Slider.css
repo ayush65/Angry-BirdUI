@@ -38,3 +38,30 @@
 .iframe-margin{
     margin-top: 2.5rem;
 }
+.iframe-component{
+        width: 632px;
+        height: 379px;
+        border:0;
+        transform: scale(1); 
+        overflow:hidden;
+}
+@media screen and (max-width: 772px) {
+     .slidecontainer{
+        margin-left: 3.75rem;
+     }
+     .iframe-component{
+        width: 432px;
+        height: 379px;
+}
+
+} 
+@media screen and (max-width: 492px) {
+    .slidecontainer{
+        margin-left: 2.5rem;
+     }
+     .iframe-component{
+        width: 262px;
+        height: 679px;
+}
+
+ }

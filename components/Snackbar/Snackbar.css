@@ -30,6 +30,7 @@
     width: 43.75rem;
     font-size: 1.25rem;
     text-align: center;
+    z-index: 1;
 }
 .snackbar.show{
     transform: translateY(12.5rem);
@@ -44,4 +45,39 @@
     color: var(--primary-color);
     font-size: 3rem;
     margin-bottom: 1.875rem;
+}
+.iframe-component{
+    width: 632px;
+    height: 379px;
+    border:0;
+    transform: scale(1); 
+    overflow:hidden;
+}
+@media screen and (max-width: 772px) {
+ .snackbar-container{
+    margin-left: 3.75rem;
+ }
+ .iframe-component{
+    width: 432px;
+    height: 379px;
+    }
+    .snackbar{
+        left: 4.5rem;
+        width: 20.75rem;
+    }
+
+} 
+@media screen and (max-width: 492px) {
+.snackbar-container{
+    margin-left: 2.5rem;
+ }
+ .iframe-component{
+    width: 252px;
+    height: 679px;
+}
+.snackbar{
+    left: 2.5rem;
+    width: 9.75rem;
+}
+
 }

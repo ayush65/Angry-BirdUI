@@ -8,6 +8,9 @@
     display: flex;
     flex-flow: column wrap;
 }
+.main-menu{
+    height: 2400px;
+}
 .text-heading-element{
     color: var(--primary-color);
     font-size: 3rem;
@@ -49,4 +52,35 @@
 }
 .text-center {
     text-align: center;
+}
+.iframe-component{
+    width: 632px;
+    height: 379px;
+    border:0;
+    transform: scale(1); 
+    overflow:hidden;
+}
+@media screen and (max-width: 772px) {
+    .text-utilities-container{
+       margin-left: 3.75rem;
+    }
+    .iframe-component{
+       width: 432px;
+       height: 379px;
+    }
+    .text-margin{
+        margin-bottom: 0.5rem;
+        margin-top: 0.5rem;
+    }
+
+} 
+@media screen and (max-width: 492px) {
+   .text-utilities-container{
+       margin-left: 2.5rem;
+    }
+    .iframe-component{
+       width: 252px;
+       height: 679px;
+}
+
 }
