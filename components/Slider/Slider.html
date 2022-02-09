@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <link rel="stylesheet" href="Rating.css">
+    <link rel="stylesheet" href="Slider.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Angry Bird UI</title>
 </head>
@@ -43,7 +43,7 @@
                     <a class="text-decoration" href="../Image/Image.html">Image</a>
                 </li>  
                 <li class="menu-item"> 
-                    <a class="text-decoration" href="Input.html">Input</a>
+                    <a class="text-decoration" href="../Input/Input.html">Input</a>
                 </li>  
             </section>
             <section class="primary-components-1">
@@ -60,7 +60,7 @@
                     <a class="text-decoration" href="../Modal/Modal.html">Modal</a>
                 </li> 
                 <li class="menu-item"> 
-                    <a class="text-decoration" href="Rating.html">Rating </a>
+                    <a class="text-decoration" href="../Rating/Rating.html">Rating </a>
                 </li> 
                 <li class="menu-item"> 
                     <a class="text-decoration" href="../Snackbar/Snackbar.html">Snackbar</a>
@@ -77,38 +77,21 @@
                     <a class="text-decoration" href="">Hamburger</a>
                 </li> 
                 <li class="menu-item"> 
-                    <a class="text-decoration" href="../Slider/Slider.html">Slider</a>
+                    <a class="text-decoration" href="Slider.html">Slider</a>
                 </li> 
             </section>
         </ul>
     </div>
-    <div class="rating-container">
-        <h1 class="rating-component-heading">Rating</h1>
-        <div class="rating-content">
-            <i class="fa fa-rating fa-star" aria-hidden="true"></i>
-            <i class="fa fa-rating fa-star-half-o" aria-hidden="true"></i>
-            <i class="fa fa-rating fa-star-o" aria-hidden="true"></i>
-            <i class="fa fa-rating fa-star-o" aria-hidden="true"></i>
-            <i class="fa fa-rating fa-star-o" aria-hidden="true"></i>
-        </div>
+
+    <div class="slidecontainer">
+        <h1 class="slider-component-heading">Slider</h1>
+        <input type="range" min="1" max="100" value="50" class="slider">
         <iframe
         class="iframe-margin iframe-component"
-        src="https://carbon.now.sh/embed?bg=rgba%28230%2C57%2C70%2C1%29&t=material&wt=none&l=groovy&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=4x&wm=false&code=%253Cdiv%2520class%253D%2522rating-content%2522%253E%250A%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-rating%2520fa-star%2522%2520aria-hidden%253D%2522true%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-rating%2520fa-star-half-o%2522%2520aria-hidden%253D%2522true%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-rating%2520fa-star-o%2522%2520aria-hidden%253D%2522true%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-rating%2520fa-star-o%2522%2520aria-hidden%253D%2522true%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-rating%2520fa-star-o%2522%2520aria-hidden%253D%2522true%2522%253E%253C%252Fi%253E%250A%253C%252Fdiv%253E"
+        src="https://carbon.now.sh/embed?bg=rgba%28230%2C57%2C70%2C1%29&t=material&wt=none&l=groovy&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=4x&wm=false&code=%250A%253Cdiv%2520class%253D%2522slidecontainer%2522%253E%250A%2520%2520%2520%2520%2520%253Ch1%2520class%253D%2522slider-component-heading%2522%253ESlider%253C%252Fh1%253E%250A%2520%2520%2520%2520%2520%253Cinput%2520type%253D%2522range%2522%2520min%253D%25221%2522%2520max%253D%2522100%2522%2520value%253D%252250%2522%2520class%253D%2522slider%2522%253E%250A%253C%252Fdiv%253E"
         sandbox="allow-scripts allow-same-origin">
       </iframe>
-        <div class="rating-content">
-            <i class="fa fa-rating fa-star" aria-hidden="true"></i>
-            <i class="fa fa-rating fa-star" aria-hidden="true"></i>
-            <i class="fa fa-rating fa-star" aria-hidden="true"></i>
-            <i class="fa fa-rating fa-star" aria-hidden="true"></i>
-            <i class="fa fa-rating fa-star-half" aria-hidden="true"></i>
-            </div>
-            <iframe
-            class="iframe-margin iframe-component"
-            src="https://carbon.now.sh/embed?bg=rgba%28230%2C57%2C70%2C1%29&t=material&wt=none&l=groovy&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=4x&wm=false&code=%253Cdiv%2520class%253D%2522rating-content%2522%253E%250A%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-rating%2520fa-star%2522%2520aria-hidden%253D%2522true%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-rating%2520fa-star%2522%2520aria-hidden%253D%2522true%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-rating%2520fa-star%2522%2520aria-hidden%253D%2522true%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-rating%2520fa-star%2522%2520aria-hidden%253D%2522true%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-rating%2520fa-star-half%2522%2520aria-hidden%253D%2522true%2522%253E%253C%252Fi%253E%250A%253C%252Fdiv%253E"
-            sandbox="allow-scripts allow-same-origin">
-          </iframe>
-        </div>
-        </div>
+      </div>
+        
 </body>
 </html>

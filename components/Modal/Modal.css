@@ -74,3 +74,45 @@
 .iframe-margin{
     margin-left: 5.5rem;
 }
+
+.iframe-component{
+    width: 632px;
+    height: 379px;
+    border:0;
+    transform: scale(1); 
+    overflow:hidden;
+}
+@media screen and (max-width: 772px) {
+ .modal-container, .iframe-margin{
+    margin-left: 3.75rem;
+ }
+ .iframe-component{
+    width: 432px;
+    height: 379px;
+}
+ .modal-sign-up-button, .modal-login{
+    margin-left: 0.675rem;
+    width: 60%;
+ }
+ .modal-component-heading{
+    margin-left: 0.675rem;
+    font-size: 2.25rem;
+ }
+
+} 
+@media screen and (max-width: 492px) {
+.modal-container{
+    margin-left: 2.5rem;
+ }
+ .iframe-component{
+    width: 252px;
+    height: 679px;
+}
+.modal-sign-up-button, .modal-login{
+    margin-left: 5.675rem;
+    width: 60%;
+ }
+ .modal-component-heading{
+    margin-left: 5.675rem;
+ }
+}

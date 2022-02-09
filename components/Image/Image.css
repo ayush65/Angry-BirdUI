@@ -35,19 +35,38 @@
     width: 20%;
     height: auto;
 }
+
+ .iframe-component{
+    width: 632px;
+    height: 379px;
+    border:0;
+    transform: scale(1); 
+    overflow:hidden;
+}
 @media screen and (max-width: 772px) {
-     .image-container{
-        margin-left: 3.75rem;
-     }
-     .image-responsive{
-         width: 65%;
-     }
+
+ .iframe-component{
+    width: 432px;
+    height: 379px;
+ }
+ .image-container{
+    margin-left: 3.75rem;
+ }
+ .image-responsive{
+     width: 65%;
+ }
+
 } 
 @media screen and (max-width: 492px) {
-    .image-container{
-        margin-left: 1.5rem;
-     }
-     .image-responsive{
-        width: 25%;
-    }
+ .iframe-component{
+    width: 262px;
+    height: 679px;
  }
+ .image-container{
+    margin-left: 1.5rem;
+ }
+ .image-responsive{
+    width: 25%;
+ }
+
+}
