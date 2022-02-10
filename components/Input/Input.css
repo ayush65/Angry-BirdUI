@@ -37,7 +37,7 @@
     background-color: white;
 }
 .label-input-error{
-    top: 89.063rem;
+    top: 111.063rem;
 }
 .basic-text{
     padding: 0.4rem;
@@ -51,11 +51,11 @@
     top: 5.5rem;
 }
 .label-input-warning{
-    top: 61.125rem;
+    top: 75.525rem;
 }
 
 .label-input-success{
-    top: 33.438rem;
+    top: 40.438rem;
 }
 .success{
     border-color: var(--success-text-color);
@@ -95,7 +95,6 @@
     width: 432px;
     height: 379px;
 }
-
 } 
 @media screen and (max-width: 492px) {
 .input-container{
@@ -104,6 +103,16 @@
  .iframe-component{
     width: 262px;
     height: 679px;
+}
+.label-input-warning{
+    top: 113.025rem;
+}
+
+.label-input-success{
+    top: 59.438rem;
+}
+.label-input-error{
+    top: 167.363rem;
 }
 
 }
