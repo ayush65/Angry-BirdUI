@@ -1,0 +1,39 @@
+@import url("../style.css");
+
+.installaion-content{
+    position:absolute;
+    top: 5rem;
+    left: 40rem;
+}
+.main-heading-content{
+    font-size: 3rem;
+    text-align: center;
+}
+.tab-content{
+    text-decoration: none;
+}
+.iframe-installation{
+    position: absolute;
+    top: 14rem;
+    left: 20rem;
+}
+.iframe-component{
+    width: 632px;
+    height: 379px;
+    border:0;
+    transform: scale(1); 
+    overflow:hidden;
+}
+@media screen and (max-width: 492px) {
+    .installaion-content{
+       position: absolute;
+       left: 3rem;
+     }
+     .iframe-component{
+         position: absolute;
+         left: 1rem;
+        width: 292px;
+        height: 679px;
+    }
+    
+}
