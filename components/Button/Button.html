@@ -21,6 +21,9 @@
         </nav>
     </div>
     <div class="main-container" >
+        <a class="hamburger" onclick="hamburgerMainMenu()">
+            <i class="fa main-menu-hamburger fa-bars"></i>
+          </a>
         <div class="main-menu">
             <ul>
                 <section class="primary-components-0">
@@ -74,7 +77,7 @@
                         <a class="text-decoration" href="">Submenus</a>
                     </li> 
                     <li class="menu-item"> 
-                        <a class="text-decoration" href="">Hamburger</a>
+                        <a class="text-decoration" href="../hamburger/hamburger.html">Hamburger</a>
                     </li> 
                     <li class="menu-item"> 
                         <a class="text-decoration" href="../Slider/Slider.html">Slider</a>
@@ -87,16 +90,20 @@
             <div class="button-conatiner">
                 <h1 class="component-library-content-heading">Buttons</h1>
                 <p class="component-library-content-paragraph">Buttons allow users to take actions, and make choices, with a single tap.</p>
+                <div class="button-align">
                 <h1 class="button-component-example">Example of Primary Button Styles</h1>
-                <a class="button simple-button">Primary Solid</a>
-                <a class="button primary-outline">Primary Outline</a>
-                <a class="button button-link">Primary Text</a>
-                <a class="button button-icon"><i class="fa fa-book" aria-hidden="true"></i>Icon button</a>
+                <div><a class="button simple-button">Primary Solid</a></div>
+                <div><a class="button primary-outline">Primary Outline</a></div>
+                <div><a class="button button-link">Primary Text</a></div>
+                <div><a class="button button-icon"><i class="fa fa-book" aria-hidden="true"></i>Icon button</a></div>
+
+                </div>
                 <iframe
                 class="iframe-button iframe-component"
                 src="https://carbon.now.sh/embed?bg=rgba%28230%2C57%2C70%2C1%29&t=material&wt=none&l=groovy&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=4x&wm=false&code=%253Ca%2520class%253D%2522button%2520simple-button%2522%253EPrimary%2520Solid%253C%252Fa%253E%250A%253Ca%2520class%253D%2522button%2520primary-outline%2522%253EPrimary%2520Outline%253C%252Fa%253E%250A%253Ca%2520class%253D%2522button%2520button-link%2522%253EPrimary%2520Text%253C%252Fa%253E%250A%253Ca%2520class%253D%2522button%2520button-icon%2522%253E%253Ci%2520class%253D%2522fa%2520fa-book%2522%2520aria-hidden%253D%2522true%2522%253E%253C%252Fi%253EIcon%2520button%253C%252Fa%253E"
                 sandbox="allow-scripts allow-same-origin">
                 </iframe>
+                <div class="button-type">
                 <h1 class="button-component-disable-example">Example of Disabled Button</h1>
                 <a  class="button-disabled">solid</a>
                 <a  class="button-disabled-icon"><i class="fa fa-times" aria-hidden="true"></i>Remove</a>
@@ -105,6 +112,8 @@
                 src="https://carbon.now.sh/embed?bg=rgba%28230%2C57%2C70%2C1%29&t=material&wt=none&l=groovy&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=4x&wm=false&code=%253Ca%2520%2520class%253D%2522button-disabled%2522%253Esolid%253C%252Fa%253E%250A%253Ca%2520%2520class%253D%2522button-disabled-icon%2522%253E%253Ci%2520class%253D%2522fa%2520fa-times%2522%2520aria-hidden%253D%2522true%2522%253E%253C%252Fi%253ERemove%253C%252Fa%253E"
                 sandbox="allow-scripts allow-same-origin">
                 </iframe>
+                </div>
+                <div class="button-sizes">
                 <h1 class="button-size-heading">Example of Different Button Sizes</h1>
                 <div class="button-size">
                 <a class="button-large">Button large</a>
@@ -115,6 +124,8 @@
              src="https://carbon.now.sh/embed?bg=rgba%28230%2C57%2C70%2C1%29&t=material&wt=none&l=groovy&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=4x&wm=false&code=%253Ca%2520class%253D%2522button-large%2522%253EButton%2520large%253C%252Fa%253E%250A%253Ca%2520class%253D%2522button-small%2522%253EButton%2520small%253C%252Fa%253E"
             sandbox="allow-scripts allow-same-origin">
             </iframe>
+            </div>
+            <div class="floating">
             <h1 class="button-floating-heading">Example of Floating action Button</h1>
             <div class="button-floating-components">
                 <a  class="round button-floating"><i class="fa fa-plus" aria-hidden="true"></i></a>
@@ -127,7 +138,9 @@
             sandbox="allow-scripts allow-same-origin">
             </iframe>
             </div>
+            </div>
         </div>
         </div>
+        <script src="../hamburger/hamburger.js"></script>
 </body>
 </html>

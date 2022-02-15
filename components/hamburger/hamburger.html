@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <link rel="stylesheet" href="Slider.css">
+    <link rel="stylesheet" href="hamburger.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Angry Bird UI</title>
 </head>
@@ -20,13 +20,15 @@
             <a class="tab-content"><i class="fa fa-twitter" aria-hidden="true"></i></a>
         </nav>
     </div>
+    <a class="hamburger" onclick="hamburgerMainMenu()">
+        <i class="fa main-menu-hamburger fa-bars"></i>
+      </a>
     <div class="main-container" >
-        <a class="hamburger" onclick="hamburgerMainMenu()">
-            <i class="fa main-menu-hamburger fa-bars"></i>
-          </a>
+
     <div class="main-menu">
         <ul>
             <section class="primary-components-0">
+
                 <li class="menu-item"> 
                     <a class="text-decoration"href="../Avatar/Avatar.html">Avatar</a>
                 </li>
@@ -77,24 +79,30 @@
                     <a class="text-decoration" href="">Submenus</a>
                 </li> 
                 <li class="menu-item"> 
-                    <a class="text-decoration" href="">Hamburger</a>
+                    <a class="text-decoration" href="hamburger.html">Hamburger</a>
                 </li> 
                 <li class="menu-item"> 
-                    <a class="text-decoration" href="Slider.html">Slider</a>
+                    <a class="text-decoration" href="../Slider/Slider.html">Slider</a>
                 </li> 
             </section>
         </ul>
     </div>
-
-    <div class="slidecontainer">
-        <h1 class="slider-component-heading">Slider</h1>
-        <input type="range" min="1" max="100" value="50" class="slider">
-        <iframe
-        class="iframe-margin iframe-component"
-        src="https://carbon.now.sh/embed?bg=rgba%28230%2C57%2C70%2C1%29&t=material&wt=none&l=groovy&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=4x&wm=false&code=%250A%253Cdiv%2520class%253D%2522slidecontainer%2522%253E%250A%2520%2520%2520%2520%2520%253Ch1%2520class%253D%2522slider-component-heading%2522%253ESlider%253C%252Fh1%253E%250A%2520%2520%2520%2520%2520%253Cinput%2520type%253D%2522range%2522%2520min%253D%25221%2522%2520max%253D%2522100%2522%2520value%253D%252250%2522%2520class%253D%2522slider%2522%253E%250A%253C%252Fdiv%253E"
-        sandbox="allow-scripts allow-same-origin">
-      </iframe>
-      </div>
-        <script src="../hamburger/hamburger.js"></script>
+    <div class="navigation-container">
+        <div class="nav-header-content">
+            <h1 class="nav-header">Hamburger</h1>
+        </div>
+    <div class="hamburger-nav">
+        <div class="hamburger-link">
+            <a class="tab-content a-tag" href="">Home</a>
+            <a class="tab-content a-tag" href="">Installation</a>
+            <a class="tab-content a-tag"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+            <a class="tab-content a-tag"><i class="fa fa-github" aria-hidden="true"></i></a>
+            <a class="tab-content a-tag"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+        </div>
+        <a onclick="hamburgerComponent()">
+          <i class="fa fa-bars"></i>
+        </a>
+        </div>
+        <script src="hamburger.js"></script>
 </body>
 </html>

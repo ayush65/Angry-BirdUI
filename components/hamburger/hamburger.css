@@ -1,0 +1,58 @@
+@import url("../Navigation/Navigation.css");
+
+.hamburger-nav {
+    overflow: hidden;
+    background-color: var(--primary-color);
+    position: relative;
+}
+.hamburger-nav .hamburger-link {
+    display: none;
+}
+.main-menu-hamburger{
+    color: var(--primary-color);
+}
+.hamburger-nav a {
+    color: var(--white);
+    padding: 0.875rem 1rem;
+    text-decoration: none;
+    font-size: 1.063rem;
+    display: block;
+    width: 68.75rem;
+}
+.hamburger-content{
+    text-decoration: none;
+}
+.hamburger-nav a:hover {
+    background-color: var(--white);
+    color: var(--primary-color);
+}
+.hamburger{
+    position: absolute;
+    display: none;
+    top: 4.375rem;
+    font-size: 2.5rem;
+    margin-left: 3rem;
+}
+.main-menu{
+    position: absolute;
+    top: 0px;
+    z-index: 3;
+    height: 100vh;
+}
+.nav-header{
+    color: var(--primary-color);
+    margin-bottom: 3rem;
+}
+@media (max-width: 768px) {
+    .main-menu{
+        width: 320px;
+        top: 45px;
+    }
+    .hamburger{
+        display: block;
+        font-size: 1.5rem;
+    }
+    .hamburger-nav a {
+        width: 12.5rem;
+    }
+}
