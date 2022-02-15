@@ -43,6 +43,9 @@
     color: var(--primary-color);
     margin-bottom: 3rem;
 }
+.iframe-component{
+    margin-top: 5rem;
+}
 @media (max-width: 768px) {
     .main-menu{
         width: 320px;
