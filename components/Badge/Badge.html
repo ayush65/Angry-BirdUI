@@ -23,6 +23,9 @@
         </nav>
     </div>
     <div class="main-container" >
+        <a class="hamburger" onclick="hamburgerMainMenu()">
+            <i class="fa main-menu-hamburger fa-bars"></i>
+          </a>
     <div class="main-menu">
         <ul>
             <section class="primary-components-0">
@@ -76,7 +79,7 @@
                     <a class="text-decoration" href="">Submenus</a>
                 </li> 
                 <li class="menu-item"> 
-                    <a class="text-decoration" href="">Hamburger</a>
+                    <a class="text-decoration" href="../hamburger/hamburger.html">Hamburger</a>
                 </li> 
                 <li class="menu-item"> 
                     <a class="text-decoration" href="../Slider/Slider.html">Slider</a>
@@ -100,11 +103,14 @@
                 <img class="avatar-space avatar-round avatar-sm-size" src="Badge-logo.jpg" alt="badge-sm">
                 <span class="status-badge status-badge-away"> </span>
             </span>
-            <iframe
-            src="https://carbon.now.sh/embed?bg=rgba%28230%2C57%2C70%2C1%29&t=material&wt=none&l=groovy&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=4x&wm=false&code=%253Cspan%2520class%253D%2522circle-avatar-components%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cimg%2520%2520class%253D%2522avatar-space%2520avatar-round%2520avatar-lg-size%2520%2522%2520src%253D%2522Badge-logo.jpg%2522%2520alt%253D%2522badge-lg%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522status-badge%2520status-badge-offline%2522%253E%2520%253C%252Fspan%253E%250A%253C%252Fspan%253E%250A%253Cspan%2520class%253D%2522circle-avatar-components%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522avatar-space%2520avatar-round%2520avatar-md-size%2522%2520src%253D%2522Badge-logo.jpg%2522%2520alt%253D%2522badge-md%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522status-badge%2520status-badge-online%2522%253E%2520%253C%252Fspan%253E%250A%253C%252Fspan%253E%250A%253Cspan%2520class%253D%2522circle-avatar-components%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522avatar-space%2520avatar-round%2520avatar-sm-size%2522%2520src%253D%2522Badge-logo.jpg%2522%2520alt%253D%2522badge-sm%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522status-badge%2520status-badge-away%2522%253E%2520%253C%252Fspan%253E%250A%253C%252Fspan%253E"
-            style="width: 976px; height: 410px; border:0; transform: scale(1); overflow:hidden;"
-            sandbox="allow-scripts allow-same-origin">
-          </iframe>
+            <div>
+                <iframe
+                class="iframe-component"
+                src="https://carbon.now.sh/embed?bg=rgba%28230%2C57%2C70%2C1%29&t=material&wt=none&l=groovy&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=4x&wm=false&code=%253Cspan%2520class%253D%2522circle-avatar-components%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cimg%2520%2520class%253D%2522avatar-space%2520avatar-round%2520avatar-lg-size%2520%2522%2520src%253D%2522Badge-logo.jpg%2522%2520alt%253D%2522badge-lg%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522status-badge%2520status-badge-offline%2522%253E%2520%253C%252Fspan%253E%250A%253C%252Fspan%253E%250A%253Cspan%2520class%253D%2522circle-avatar-components%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522avatar-space%2520avatar-round%2520avatar-md-size%2522%2520src%253D%2522Badge-logo.jpg%2522%2520alt%253D%2522badge-md%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522status-badge%2520status-badge-online%2522%253E%2520%253C%252Fspan%253E%250A%253C%252Fspan%253E%250A%253Cspan%2520class%253D%2522circle-avatar-components%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522avatar-space%2520avatar-round%2520avatar-sm-size%2522%2520src%253D%2522Badge-logo.jpg%2522%2520alt%253D%2522badge-sm%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522status-badge%2520status-badge-away%2522%253E%2520%253C%252Fspan%253E%250A%253C%252Fspan%253E"
+                sandbox="allow-scripts allow-same-origin">
+              </iframe>
+            </div>
+
           <h1 class="badge-content-example">Example of Text Badge</h1>
           <h1 class="badge-content-examples">Example of Heading with Badge <span class="badge-text badge-square">New</span></h1>
           <h2 class="badge-content-examples">Example of Heading with Badge <span class="badge-text badge-square">New</span></h2>
@@ -112,11 +118,12 @@
           <h4 class="badge-content-examples">Example of Heading with Badge <span class="badge-text badge-square badge-oval-color">New</span></h4>
           <h5 class="badge-content-examples">Example of Heading with Badge <span class="badge-text badge-oval badge-oval-color">New</span></h5>
           <iframe
+          class="iframe-component"
             src="https://carbon.now.sh/embed?bg=rgba%28230%2C57%2C70%2C1%29&t=material&wt=none&l=groovy&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=4x&wm=false&code=%253Ch1%2520class%253D%2522badge-content-examples%2522%253EExample%2520of%2520Heading%2520with%2520Badge%2520%250A%2520%2520%253Cspan%2520class%253D%2522badge-text%2520badge-square%2522%253ENew%253C%252Fspan%253E%253C%252Fh1%253E%250A%253Ch2%2520class%253D%2522badge-content-examples%2522%253EExample%2520of%2520Heading%2520with%2520Badge%2520%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522badge-text%2520badge-square%2522%253ENew%253C%252Fspan%253E%253C%252Fh2%253E%250A%253Ch3%2520class%253D%2522badge-content-examples%2522%253EExample%2520of%2520Heading%2520with%2520Badge%2520%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522badge-text%2520badge-oval%2520badge-oval-color%2522%253ENew%253C%252Fspan%253E%253C%252Fh3%253E%250A%253Ch4%2520class%253D%2522badge-content-examples%2522%253EExample%2520of%2520Heading%2520with%2520Badge%2520%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522badge-text%2520badge-square%2520badge-oval-color%2522%253ENew%253C%252Fspan%253E%253C%252Fh4%253E%250A%253Ch5%2520class%253D%2522badge-content-examples%2522%253EExample%2520of%2520Heading%2520with%2520Badge%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522badge-text%2520badge-oval%2520badge-oval-color%2522%253ENew%253C%252Fspan%253E%253C%252Fh5%253E"
-            style="width: 774px; height: 372px; border:0; transform: scale(1); overflow:hidden;"
             sandbox="allow-scripts allow-same-origin">
         </iframe>
         </div>
     </div>
+    <script src="../hamburger/hamburger.js"></script>
 </body>
 </html>
