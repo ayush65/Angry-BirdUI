@@ -7,7 +7,7 @@
     height: 93.75rem;
 }
 .component-library-components-container{
-    margin: 6.25rem auto 2.25rem 21.875rem; /* margin-top  margin-right margin-bottom margin-left  */
+    margin: 6.25rem auto 2.25rem 21.875rem; 
     display: flex;
     flex-flow: column wrap;
 }
