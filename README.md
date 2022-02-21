@@ -1,6 +1,6 @@
 
 # Angry Bird UI
-###Copy and paste the components at one click. It is user-friendly and customizable. Spend less time in designing and concentrate more on logic without hustling on UI.
+### Copy and paste the components at one click. It is user-friendly and customizable. Spend less time in designing and concentrate more on logic without hustling on UI.
 
 ## Installation 
 Add the following code into the <head> section of your project, to start using Angry Bird UI 
