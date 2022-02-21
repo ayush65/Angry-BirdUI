@@ -189,12 +189,61 @@
 } 
 @media screen and (max-width: 492px) {
 .cards-container{
-    margin-left: 2.5rem;
+    margin-left: 1.5rem;
  }
  .iframe-component{
     width: 262px;
     height: 679px;
 }
-
+.card-container-horizontal {
+    width: 15.375rem;
+    height: 17rem;
+}
+.card-component-horizontal{
+    height: 9rem;
+}
+.card-with-text-overlay{
+    top: 7rem;
+}
+.component-library-content-heading{
+    font-size: 2rem;
+    top: 5rem;
+}
+.card-with-text-overlay,.card-with-text-overlay-description{
+    font-size: 0.9rem;
+}
+.card-button-play,.card-button-check-levels{
+    padding: 0.2rem;
+    font-size: 1rem;
+    bottom: 0.6rem;
+    left: 0.1rem;
+}
+.card-with-dismiss{
+    bottom: 14.6rem;
+    left: 13.5rem;
+}
+.card-with-dismiss-badge{
+    left: 14.125rem;
+    bottom: 15.75rem;
+}
+.card-with-only-text{
+    
+    left: 10rem;
+    font-size:0.8rem;
+    top: 6rem;
+}
+.card-container-vertical {
+    width: 15.125rem;
+    height: 25.625rem;
+}
+.card-component-vertical{
+    width: 15.125rem;
+    height: 10rem;
+}
+.vertical-card-button-watch{
+    left: 0rem;
+    position: absolute;
+    padding: 0.3rem;
+}
 }
 

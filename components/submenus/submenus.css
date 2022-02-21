@@ -1,0 +1,68 @@
+@import url("../Slider/Slider.css");
+
+.submenus-component-container{
+    width: 65%; 
+    position: absolute;
+    margin-left: 18.875rem;
+    margin-top: 6.25rem;
+    margin-right: auto;
+    display: block;
+}
+.navbar {
+    overflow: hidden;
+    background-color: var(--nav-color);
+}
+.navbar a {
+    float: left;
+    font-size: 1rem;
+    color: var(--white);
+    text-align: center;
+    padding: 0.65rem 1.25rem;
+    text-decoration: none;
+}
+.subnav {
+    float: center;
+    overflow: hidden;
+}
+.subnav .subnavbtn {
+    font-size: 1rem;
+    border: none;
+    outline: none;
+    color: var(--white);
+    padding: 0.875rem 1rem;
+    background-color: inherit;
+    margin: 0;
+}
+.subnav:hover .subnav-content {
+    display: block;
+}
+.subnav:hover .subnavbtn {
+    color: var(--secondary-color);
+}
+.subnav-content {
+    display: none;
+    position: absolute;
+    left: 0;
+    background-color: var(--primary-color);
+    width: 100%;
+    z-index: 1;
+}
+.iframe-component{
+    width: 632px;
+    height: 379px;
+    border:0;
+    transform: scale(1); 
+    overflow:hidden;
+}
+@media screen and (max-width: 492px) {
+    .submenus-component-container{
+        margin-left: 1.5rem;
+        width: 90%;
+     }
+     .iframe-component{
+        width: 300px;
+        height: 409px;
+        overflow-y: none;
+}
+
+ }

@@ -1,7 +1,7 @@
 @import url("../Avatar/Avatar.css");
 
 .main-menu{
-    width: 19rem;
+    width: 16rem;
     height: 113.75rem;
 }
 .component-library-components-container {
@@ -9,6 +9,12 @@
     display: flex;
     flex-flow: row wrap;  
     width: 100%;
+}
+.button-type-container{
+    display: flex;
+    flex-flow: row wrap;
+    width: 60%;
+    height: 100%;
 }
 .button-conatiner{    
     position: absolute;
@@ -50,7 +56,7 @@
 }
 .iframe-button{
     position:absolute;
-    top: 15.625rem;
+    top: 9.625rem;
 }
 .button-component-disable-example{
     margin-top: 23.125rem;
@@ -73,7 +79,7 @@
 }
 .iframe-button-disabled {
     position: absolute;
-    top: 40.625rem;
+    top: 35.625rem;
 }
 .button-size{
     position: absolute;
@@ -100,7 +106,7 @@
 }
 .iframe-button-size{
     position: absolute;
-    top: 68.75rem;
+    top: 62.75rem;
 }
 .button-floating-components{
     position: absolute;
@@ -134,6 +140,12 @@
     transform: scale(1); 
     overflow:hidden;
 }
+.button-sizes{
+    top: 40rem;
+}
+.floating{
+    top: 50rem;
+}
 @media screen and (max-width: 772px) {
  .button-conatiner{
     margin-left: 3.75rem;
@@ -143,6 +155,7 @@
     height: 379px;
 }
 } 
+
 @media screen and (max-width: 492px) {
 .button-conatiner{
     margin-left: 2.5rem;
@@ -151,5 +164,52 @@
     width: 262px;
     height: 679px;
 }
+.iframe-button{
+    position:absolute;
+    top: 14.625rem;
+}
+.iframe-button-size{
+    position: absolute;
+    top: 71.75rem;
+}
+.button-type-container{
+    position: absolute;
+    top: 5rem;
+    left: 0rem;
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    height: 100%;
+}
+.button{
+    line-height: 0.8;
+}
 
+.floating{
+    position: absolute;
+    top: 80rem;
+}
+.button-sizes{
+    position: absolute;
+    top: 63rem;
+}
+.button-type{
+    position: absolute;
+    top: 55rem;
+}
+.button-large,.button-small{
+    position: absolute;
+    top: 6rem;
+    z-index: 2;
+}
+.button-large{
+    left: 5rem;
+}
+.round{
+    position: absolute;
+    top: 5rem;
+}
+.button-floating-components{
+    display: flex;
+}
 }
